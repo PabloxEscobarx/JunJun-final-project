@@ -1,0 +1,44 @@
+header {
+    nav {
+        background-color: #fff;
+    }
+    .container-lg {
+        .contact {
+            padding: 7px 0;
+            .number {
+                a {
+                    color: black;
+                }
+            }
+        }
+        .row {
+            .logo {
+                padding: 20px 0;
+            }
+            .user_acc {
+                img {
+                    padding-right: 10px;
+                }
+            }
+            .col-md-4 {
+                .dropdown {
+                    .btn-check:focus+.btn-secondary,
+                    .btn-secondary:focus {
+                        box-shadow: none;
+                    }
+                    a {
+                        padding-right: 5px;
+                        background-color: #fff;
+                        color: black;
+                        border: none;
+                    }
+                }
+            }
+            .col-md-6 {
+                select {
+                    background: #E5E5E5;
+                }
+            }
+        }
+    }
+}
